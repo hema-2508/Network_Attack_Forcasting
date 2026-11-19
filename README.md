@@ -68,3 +68,10 @@ tests/                  pytest suite
 ## Honesty rules
 Every number in the dashboard and report comes from `results/` produced by the scripts, or is computed
 live by a saved model on recorded data. Negative or weak results are reported as they are.
+
+## Next step — Streamlit Cloud deploy:
+
+Go to share.streamlit.io → New app
+Choose repo hema-2508/Network_Attack_Forcasting, branch main, main file app/streamlit_app.py
+In Advanced settings select Python 3.10
+Click Deploy — it will install requirements.txt and serve the dashboard (no raw data or retraining needed)
