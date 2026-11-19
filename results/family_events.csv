@@ -1,0 +1,181 @@
+variant,model,alerter,fold,onset_id,family,warned_frac,mean_lead_min,window_minutes
+forward,baseline_anomaly,aci,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,baseline_anomaly,aci,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,baseline_anomaly,aci,F1,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+forward,baseline_anomaly,aci,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,baseline_anomaly,aci,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,baseline_anomaly,aci,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,baseline_anomaly,aci,F2,2017-07-07_1004,Bot,0.0,,5
+forward,baseline_anomaly,aci,F2,2017-07-07_1355,PortScan,0.0,,2
+forward,baseline_anomaly,aci,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,baseline_anomaly,aci,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,baseline_anomaly,aci,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,baseline_anomaly,aci,F2,2017-07-07_1556,DDoS,0.0,,5
+forward,baseline_anomaly,conformal,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,baseline_anomaly,conformal,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,baseline_anomaly,conformal,F1,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+forward,baseline_anomaly,conformal,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,baseline_anomaly,conformal,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,baseline_anomaly,conformal,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,baseline_anomaly,conformal,F2,2017-07-07_1004,Bot,0.0,,5
+forward,baseline_anomaly,conformal,F2,2017-07-07_1355,PortScan,0.0,,2
+forward,baseline_anomaly,conformal,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,baseline_anomaly,conformal,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,baseline_anomaly,conformal,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,baseline_anomaly,conformal,F2,2017-07-07_1556,DDoS,0.0,,5
+forward,baseline_anomaly,fixed,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,baseline_anomaly,fixed,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,baseline_anomaly,fixed,F1,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+forward,baseline_anomaly,fixed,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,baseline_anomaly,fixed,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,baseline_anomaly,fixed,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,baseline_anomaly,fixed,F2,2017-07-07_1004,Bot,0.0,,5
+forward,baseline_anomaly,fixed,F2,2017-07-07_1355,PortScan,1.0,2.0,2
+forward,baseline_anomaly,fixed,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,baseline_anomaly,fixed,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,baseline_anomaly,fixed,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,baseline_anomaly,fixed,F2,2017-07-07_1556,DDoS,0.0,,5
+forward,baseline_random,aci,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,baseline_random,aci,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,baseline_random,aci,F1,2017-07-06_0915,Web Attack - Brute Force,0.2,5.0,5
+forward,baseline_random,aci,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,baseline_random,aci,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,baseline_random,aci,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,baseline_random,aci,F2,2017-07-07_1004,Bot,0.0,,5
+forward,baseline_random,aci,F2,2017-07-07_1355,PortScan,0.4,1.0,2
+forward,baseline_random,aci,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,baseline_random,aci,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,baseline_random,aci,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,baseline_random,aci,F2,2017-07-07_1556,DDoS,0.0,,5
+forward,baseline_random,conformal,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,baseline_random,conformal,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,baseline_random,conformal,F1,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+forward,baseline_random,conformal,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,baseline_random,conformal,F1,2017-07-06_1428,Infiltration,0.2,4.0,5
+forward,baseline_random,conformal,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,baseline_random,conformal,F2,2017-07-07_1004,Bot,0.0,,5
+forward,baseline_random,conformal,F2,2017-07-07_1355,PortScan,0.2,1.0,2
+forward,baseline_random,conformal,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,baseline_random,conformal,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,baseline_random,conformal,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,baseline_random,conformal,F2,2017-07-07_1556,DDoS,0.0,,5
+forward,baseline_random,fixed,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,baseline_random,fixed,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,baseline_random,fixed,F1,2017-07-06_0915,Web Attack - Brute Force,0.2,5.0,5
+forward,baseline_random,fixed,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,baseline_random,fixed,F1,2017-07-06_1428,Infiltration,0.2,4.0,5
+forward,baseline_random,fixed,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,baseline_random,fixed,F2,2017-07-07_1004,Bot,0.0,,5
+forward,baseline_random,fixed,F2,2017-07-07_1355,PortScan,0.4,1.0,2
+forward,baseline_random,fixed,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,baseline_random,fixed,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,baseline_random,fixed,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,baseline_random,fixed,F2,2017-07-07_1556,DDoS,0.0,,5
+forward,logreg,aci,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,logreg,aci,F0,2017-07-05_1512,Heartbleed,1.0,5.0,5
+forward,logreg,aci,F1,2017-07-06_0915,Web Attack - Brute Force,1.0,2.0,5
+forward,logreg,aci,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,logreg,aci,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,logreg,aci,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,logreg,aci,F2,2017-07-07_1004,Bot,0.0,,5
+forward,logreg,aci,F2,2017-07-07_1355,PortScan,0.0,,2
+forward,logreg,aci,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,logreg,aci,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,logreg,aci,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,logreg,aci,F2,2017-07-07_1556,DDoS,0.0,,5
+forward,logreg,conformal,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,logreg,conformal,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,logreg,conformal,F1,2017-07-06_0915,Web Attack - Brute Force,1.0,2.0,5
+forward,logreg,conformal,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,logreg,conformal,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,logreg,conformal,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,logreg,conformal,F2,2017-07-07_1004,Bot,0.0,,5
+forward,logreg,conformal,F2,2017-07-07_1355,PortScan,0.0,,2
+forward,logreg,conformal,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,logreg,conformal,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,logreg,conformal,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,logreg,conformal,F2,2017-07-07_1556,DDoS,0.0,,5
+forward,logreg,fixed,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,logreg,fixed,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,logreg,fixed,F1,2017-07-06_0915,Web Attack - Brute Force,1.0,2.0,5
+forward,logreg,fixed,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,logreg,fixed,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,logreg,fixed,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,logreg,fixed,F2,2017-07-07_1004,Bot,0.0,,5
+forward,logreg,fixed,F2,2017-07-07_1355,PortScan,0.0,,2
+forward,logreg,fixed,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,logreg,fixed,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,logreg,fixed,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,logreg,fixed,F2,2017-07-07_1556,DDoS,0.0,,5
+forward,rf,aci,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,rf,aci,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,rf,aci,F1,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+forward,rf,aci,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,rf,aci,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,rf,aci,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,rf,aci,F2,2017-07-07_1004,Bot,0.0,,5
+forward,rf,aci,F2,2017-07-07_1355,PortScan,0.0,,2
+forward,rf,aci,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,rf,aci,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,rf,aci,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,rf,aci,F2,2017-07-07_1556,DDoS,1.0,3.0,5
+forward,rf,conformal,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,rf,conformal,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,rf,conformal,F1,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+forward,rf,conformal,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,rf,conformal,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,rf,conformal,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,rf,conformal,F2,2017-07-07_1004,Bot,0.0,,5
+forward,rf,conformal,F2,2017-07-07_1355,PortScan,0.0,,2
+forward,rf,conformal,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,rf,conformal,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,rf,conformal,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,rf,conformal,F2,2017-07-07_1556,DDoS,1.0,3.0,5
+forward,rf,fixed,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,rf,fixed,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,rf,fixed,F1,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+forward,rf,fixed,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,rf,fixed,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,rf,fixed,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,rf,fixed,F2,2017-07-07_1004,Bot,0.0,,5
+forward,rf,fixed,F2,2017-07-07_1355,PortScan,0.0,,2
+forward,rf,fixed,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,rf,fixed,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,rf,fixed,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,rf,fixed,F2,2017-07-07_1556,DDoS,1.0,3.4,5
+forward,xgb,aci,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,xgb,aci,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,xgb,aci,F1,2017-07-06_0915,Web Attack - Brute Force,0.4,3.0,5
+forward,xgb,aci,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,xgb,aci,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,xgb,aci,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,xgb,aci,F2,2017-07-07_1004,Bot,0.0,,5
+forward,xgb,aci,F2,2017-07-07_1355,PortScan,0.0,,2
+forward,xgb,aci,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,xgb,aci,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,xgb,aci,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,xgb,aci,F2,2017-07-07_1556,DDoS,0.6,3.0,5
+forward,xgb,conformal,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,xgb,conformal,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,xgb,conformal,F1,2017-07-06_0915,Web Attack - Brute Force,0.2,3.0,5
+forward,xgb,conformal,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,xgb,conformal,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,xgb,conformal,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,xgb,conformal,F2,2017-07-07_1004,Bot,0.0,,5
+forward,xgb,conformal,F2,2017-07-07_1355,PortScan,0.0,,2
+forward,xgb,conformal,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,xgb,conformal,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,xgb,conformal,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,xgb,conformal,F2,2017-07-07_1556,DDoS,1.0,3.0,5
+forward,xgb,fixed,F0,2017-07-05_0948,DoS slowloris,0.0,,5
+forward,xgb,fixed,F0,2017-07-05_1512,Heartbleed,0.0,,5
+forward,xgb,fixed,F1,2017-07-06_0915,Web Attack - Brute Force,0.4,3.0,5
+forward,xgb,fixed,F1,2017-07-06_1015,Web Attack - XSS,0.0,,4
+forward,xgb,fixed,F1,2017-07-06_1428,Infiltration,0.0,,5
+forward,xgb,fixed,F1,2017-07-06_1512,Infiltration,0.0,,2
+forward,xgb,fixed,F2,2017-07-07_1004,Bot,0.0,,5
+forward,xgb,fixed,F2,2017-07-07_1355,PortScan,0.4,2.0,2
+forward,xgb,fixed,F2,2017-07-07_1414,PortScan,0.0,,3
+forward,xgb,fixed,F2,2017-07-07_1451,PortScan,0.0,,5
+forward,xgb,fixed,F2,2017-07-07_1508,PortScan,0.0,,1
+forward,xgb,fixed,F2,2017-07-07_1556,DDoS,1.0,3.0,5

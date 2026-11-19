@@ -1,0 +1,91 @@
+# Single source of truth for the whole project. All paths are relative to the repo root.
+# Primary settings (labels/features/folds/alerting) were fixed BEFORE any test result was seen.
+
+paths:
+  raw_dir: data/raw/TrafficLabelling    # override with env var NAF_RAW_DIR or --raw-dir
+  processed_dir: data/processed
+  models_dir: models
+  results_dir: results
+
+data:
+  encoding: latin-1
+  files:
+    - Monday-WorkingHours.pcap_ISCX.csv
+    - Tuesday-WorkingHours.pcap_ISCX.csv
+    - Wednesday-workingHours.pcap_ISCX.csv
+    - Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+    - Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+    - Friday-WorkingHours-Morning.pcap_ISCX.csv
+    - Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+    - Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+  pm_hour_below: 8          # 12-hour clock without AM/PM: hours 1..7 are afternoon (+12)
+
+labels:
+  gap_merge: 2              # active minutes whose difference is <= 2 belong to one episode
+  min_active_minutes: 3     # episodes with fewer active minutes are tiny bursts
+  G: 10                     # valid episodes separated by < G quiet minutes form one campaign
+  H: 5                      # forecast horizon (minutes)
+  family_window: 3          # dominant label in the first 3 minutes names the onset family
+
+features:
+  L: 10                     # history window (previous minutes)
+  min_history: 3
+  include_protocol_shares: true
+  fields:                   # allow-list: raw CICFlowMeter column -> short name
+    Flow Duration: duration
+    Total Fwd Packets: fwd_pkts
+    Total Backward Packets: bwd_pkts
+    Total Length of Fwd Packets: fwd_bytes
+    Total Length of Bwd Packets: bwd_bytes
+    Fwd Packet Length Mean: fwd_pktlen_mean
+    Bwd Packet Length Mean: bwd_pktlen_mean
+    Packet Length Std: pktlen_std
+    Average Packet Size: avg_pkt_size
+    Flow Bytes/s: flow_bytes_rate
+    Flow Packets/s: flow_pkts_rate
+    Flow IAT Mean: flow_iat_mean
+    Flow IAT Max: flow_iat_max
+    Down/Up Ratio: down_up_ratio
+    Init_Win_bytes_forward: init_win_fwd
+    Init_Win_bytes_backward: init_win_bwd
+    Active Mean: active_mean
+    Idle Mean: idle_mean
+  flags:
+    FIN Flag Count: fin
+    SYN Flag Count: syn
+    RST Flag Count: rst
+    PSH Flag Count: psh
+    ACK Flag Count: ack
+    URG Flag Count: urg
+  sentinel_fields: [Init_Win_bytes_forward, Init_Win_bytes_backward]   # -1 means "no data"
+  forbidden_raw_columns: [Flow ID, Source IP, Source Port, Destination IP, Destination Port, Timestamp]
+  forbidden_tokens: [ip, port, src, dst, id, flowid, timestamp, time, clock, hour, minute, day,
+                     weekday, date, index, idx, row, elapsed, label, attack]
+
+folds:
+  calib_fraction: 0.2
+  test_days:
+    F0: "2017-07-05"        # exploratory (training holds ~1 event)
+    F1: "2017-07-06"        # primary
+    F2: "2017-07-07"        # primary
+  primary: [F1, F2]
+  exploratory: [F0]
+  monday: "2017-07-03"
+
+models:
+  seeds: [0, 1, 2, 3, 4]    # used for stochastic models (rf, xgb, random baseline)
+  logreg: {C: 0.1, max_iter: 5000}
+  rf: {n_estimators: 300, min_samples_leaf: 3, max_features: sqrt}
+  xgb: {n_estimators: 300, max_depth: 3, learning_rate: 0.05, subsample: 0.8, colsample_bytree: 0.8}
+
+alerting:
+  fa_target_per_hour: 1.0   # budget -> per-minute exceedance rate alpha = target / 60
+  refractory_minutes: 5
+  aci: {gamma: 0.005, window: 240, alpha_min: 0.0001, alpha_max: 0.5}
+
+evaluation:
+  bootstrap: 2000
+  fa_block_minutes: 60
+  periodic_baseline_period: 60
+  anomaly_baseline_features: [log_n_flows, flow_pkts_rate_mean, syn_frac]
+  sensitivity: {G: [5, 10, 15], H: [3, 5, 10]}

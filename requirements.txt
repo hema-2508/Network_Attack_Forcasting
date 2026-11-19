@@ -1,0 +1,11 @@
+# Pinned from the verified project venv (Python 3.10.1, Windows 10). Used by the app AND training.
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==25.0.1
+scipy==1.15.3
+scikit-learn==1.7.2
+xgboost==3.2.0
+joblib==1.6.0
+PyYAML==6.0.3
+streamlit==1.65.0
+plotly==7.1.0

@@ -1,0 +1,613 @@
+onset_id,day,family,onset,window_minutes,warned,lead_min,variant,fold,model,seed,alerter
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,logreg,0,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,logreg,0,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,logreg,0,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,logreg,0,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,logreg,0,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,True,5.0,forward,F0,logreg,0,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,0,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,0,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,0,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,0,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,0,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,0,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,1,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,1,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,1,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,1,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,1,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,1,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,2,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,2,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,2,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,2,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,2,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,2,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,3,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,3,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,3,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,3,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,3,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,3,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,4,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,4,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,4,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,4,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,rf,4,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,rf,4,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,0,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,0,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,0,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,0,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,0,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,0,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,1,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,1,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,1,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,1,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,1,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,1,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,2,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,2,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,2,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,2,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,2,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,2,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,3,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,3,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,3,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,3,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,3,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,3,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,4,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,4,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,4,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,4,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,xgb,4,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,xgb,4,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,0,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,0,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,0,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,0,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,0,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,0,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,1,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,1,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,1,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,1,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,1,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,1,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,2,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,2,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,2,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,2,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,2,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,2,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,3,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,3,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,3,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,3,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,3,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,3,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,4,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,4,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,4,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,4,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_random,4,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_random,4,aci
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_anomaly,0,fixed
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_anomaly,0,fixed
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_anomaly,0,conformal
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_anomaly,0,conformal
+2017-07-05_0948,2017-07-05,DoS slowloris,2017-07-05 09:48:00,5,False,,forward,F0,baseline_anomaly,0,aci
+2017-07-05_1512,2017-07-05,Heartbleed,2017-07-05 15:12:00,5,False,,forward,F0,baseline_anomaly,0,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,True,2.0,forward,F1,logreg,0,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,logreg,0,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,logreg,0,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,logreg,0,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,True,2.0,forward,F1,logreg,0,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,logreg,0,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,logreg,0,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,logreg,0,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,True,2.0,forward,F1,logreg,0,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,logreg,0,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,logreg,0,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,logreg,0,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,0,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,0,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,0,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,0,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,0,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,0,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,0,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,0,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,0,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,0,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,0,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,0,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,1,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,1,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,1,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,1,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,1,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,1,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,1,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,1,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,1,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,1,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,1,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,1,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,2,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,2,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,2,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,2,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,2,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,2,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,2,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,2,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,2,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,2,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,2,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,2,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,3,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,3,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,3,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,3,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,3,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,3,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,3,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,3,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,3,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,3,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,3,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,3,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,4,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,4,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,4,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,4,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,4,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,4,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,4,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,4,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,rf,4,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,rf,4,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,rf,4,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,rf,4,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,xgb,0,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,0,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,0,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,0,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,xgb,0,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,0,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,0,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,0,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,xgb,0,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,0,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,0,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,0,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,xgb,1,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,1,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,1,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,1,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,xgb,1,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,1,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,1,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,1,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,xgb,1,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,1,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,1,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,1,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,True,3.0,forward,F1,xgb,2,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,2,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,2,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,2,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,xgb,2,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,2,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,2,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,2,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,True,3.0,forward,F1,xgb,2,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,2,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,2,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,2,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,True,3.0,forward,F1,xgb,3,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,3,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,3,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,3,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,True,3.0,forward,F1,xgb,3,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,3,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,3,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,3,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,True,3.0,forward,F1,xgb,3,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,3,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,3,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,3,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,xgb,4,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,4,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,4,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,4,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,xgb,4,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,4,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,4,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,4,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,xgb,4,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,xgb,4,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,xgb,4,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,xgb,4,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,0,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,0,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,0,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,0,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,0,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,0,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,0,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,0,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,0,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,0,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,0,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,0,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,1,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,1,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,1,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,1,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,1,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,1,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,1,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,1,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,1,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,1,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,1,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,1,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,2,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,2,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,2,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,2,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,2,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,2,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,2,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,2,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,2,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,2,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,2,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,2,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,True,5.0,forward,F1,baseline_random,3,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,3,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,True,4.0,forward,F1,baseline_random,3,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,3,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,3,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,3,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,True,4.0,forward,F1,baseline_random,3,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,3,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,True,5.0,forward,F1,baseline_random,3,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,3,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,3,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,3,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,4,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,4,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,4,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,4,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,4,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,4,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,4,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,4,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_random,4,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_random,4,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_random,4,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_random,4,aci
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_anomaly,0,fixed
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_anomaly,0,fixed
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_anomaly,0,fixed
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_anomaly,0,fixed
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_anomaly,0,conformal
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_anomaly,0,conformal
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_anomaly,0,conformal
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_anomaly,0,conformal
+2017-07-06_0915,2017-07-06,Web Attack - Brute Force,2017-07-06 09:15:00,5,False,,forward,F1,baseline_anomaly,0,aci
+2017-07-06_1015,2017-07-06,Web Attack - XSS,2017-07-06 10:15:00,4,False,,forward,F1,baseline_anomaly,0,aci
+2017-07-06_1428,2017-07-06,Infiltration,2017-07-06 14:28:00,5,False,,forward,F1,baseline_anomaly,0,aci
+2017-07-06_1512,2017-07-06,Infiltration,2017-07-06 15:12:00,2,False,,forward,F1,baseline_anomaly,0,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,logreg,0,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,logreg,0,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,logreg,0,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,logreg,0,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,logreg,0,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,logreg,0,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,logreg,0,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,logreg,0,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,logreg,0,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,logreg,0,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,logreg,0,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,logreg,0,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,logreg,0,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,logreg,0,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,logreg,0,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,logreg,0,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,logreg,0,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,logreg,0,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,0,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,0,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,0,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,0,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,0,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,0,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,0,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,0,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,0,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,0,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,0,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,0,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,0,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,0,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,0,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,0,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,0,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,0,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,1,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,1,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,1,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,1,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,1,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,1,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,1,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,1,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,1,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,1,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,1,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,1,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,1,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,1,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,1,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,1,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,1,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,1,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,2,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,2,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,2,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,2,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,2,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,5.0,forward,F2,rf,2,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,2,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,2,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,2,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,2,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,2,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,2,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,2,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,2,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,2,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,2,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,2,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,2,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,3,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,3,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,3,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,3,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,3,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,3,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,3,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,3,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,3,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,3,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,3,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,3,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,3,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,3,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,3,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,3,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,3,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,3,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,4,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,4,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,4,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,4,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,4,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,4,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,4,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,4,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,4,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,4,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,4,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,4,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,rf,4,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,rf,4,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,rf,4,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,rf,4,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,rf,4,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,rf,4,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,0,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,True,2.0,forward,F2,xgb,0,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,0,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,0,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,0,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,0,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,0,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,0,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,0,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,0,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,0,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,0,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,0,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,0,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,0,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,0,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,0,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,xgb,0,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,1,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,True,2.0,forward,F2,xgb,1,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,1,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,1,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,1,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,1,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,1,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,1,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,1,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,1,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,1,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,1,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,1,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,1,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,1,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,1,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,1,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,1,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,2,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,2,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,2,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,2,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,2,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,2,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,2,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,2,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,2,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,2,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,2,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,2,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,2,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,2,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,2,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,2,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,2,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,2,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,3,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,3,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,3,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,3,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,3,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,3,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,3,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,3,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,3,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,3,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,3,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,3,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,3,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,3,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,3,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,3,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,3,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,xgb,3,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,4,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,4,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,4,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,4,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,4,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,4,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,4,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,4,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,4,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,4,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,4,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,4,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,xgb,4,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,xgb,4,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,xgb,4,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,xgb,4,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,xgb,4,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,True,3.0,forward,F2,xgb,4,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,0,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,True,1.0,forward,F2,baseline_random,0,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,0,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,0,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,0,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,0,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,0,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_random,0,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,0,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,0,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,0,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,0,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,0,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,True,1.0,forward,F2,baseline_random,0,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,0,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,0,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,0,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,0,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,1,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_random,1,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,1,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,1,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,1,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,1,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,1,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_random,1,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,1,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,1,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,1,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,1,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,1,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_random,1,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,1,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,1,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,1,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,1,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,2,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,True,1.0,forward,F2,baseline_random,2,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,2,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,2,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,2,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,2,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,2,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,True,1.0,forward,F2,baseline_random,2,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,2,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,2,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,2,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,2,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,2,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_random,2,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,2,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,2,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,2,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,2,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,3,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_random,3,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,3,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,3,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,3,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,3,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,3,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_random,3,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,3,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,3,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,3,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,3,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,3,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_random,3,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,3,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,3,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,3,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,3,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,4,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_random,4,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,4,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,4,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,4,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,4,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,4,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_random,4,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,4,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,4,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,4,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,4,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_random,4,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,True,1.0,forward,F2,baseline_random,4,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_random,4,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_random,4,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_random,4,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_random,4,aci
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_anomaly,0,fixed
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,True,2.0,forward,F2,baseline_anomaly,0,fixed
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_anomaly,0,fixed
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_anomaly,0,fixed
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_anomaly,0,fixed
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_anomaly,0,fixed
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_anomaly,0,conformal
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_anomaly,0,conformal
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_anomaly,0,conformal
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_anomaly,0,conformal
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_anomaly,0,conformal
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_anomaly,0,conformal
+2017-07-07_1004,2017-07-07,Bot,2017-07-07 10:04:00,5,False,,forward,F2,baseline_anomaly,0,aci
+2017-07-07_1355,2017-07-07,PortScan,2017-07-07 13:55:00,2,False,,forward,F2,baseline_anomaly,0,aci
+2017-07-07_1414,2017-07-07,PortScan,2017-07-07 14:14:00,3,False,,forward,F2,baseline_anomaly,0,aci
+2017-07-07_1451,2017-07-07,PortScan,2017-07-07 14:51:00,5,False,,forward,F2,baseline_anomaly,0,aci
+2017-07-07_1508,2017-07-07,PortScan,2017-07-07 15:08:00,1,False,,forward,F2,baseline_anomaly,0,aci
+2017-07-07_1556,2017-07-07,DDoS,2017-07-07 15:56:00,5,False,,forward,F2,baseline_anomaly,0,aci

@@ -1,0 +1,211 @@
+variant,model,alerter,fold,onset_id,family,warned_frac,mean_lead_min,window_minutes
+lodo,baseline_anomaly,aci,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,baseline_anomaly,aci,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,baseline_anomaly,aci,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,baseline_anomaly,aci,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,baseline_anomaly,aci,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,baseline_anomaly,aci,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,baseline_anomaly,aci,2017-07-06,2017-07-06_1428,Infiltration,1.0,4.0,5
+lodo,baseline_anomaly,aci,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,baseline_anomaly,aci,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,baseline_anomaly,aci,2017-07-07,2017-07-07_1355,PortScan,0.0,,2
+lodo,baseline_anomaly,aci,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,baseline_anomaly,aci,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,baseline_anomaly,aci,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,baseline_anomaly,aci,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,baseline_anomaly,conformal,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,baseline_anomaly,conformal,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,baseline_anomaly,conformal,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,baseline_anomaly,conformal,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,baseline_anomaly,conformal,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,baseline_anomaly,conformal,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,baseline_anomaly,conformal,2017-07-06,2017-07-06_1428,Infiltration,0.0,,5
+lodo,baseline_anomaly,conformal,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,baseline_anomaly,conformal,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,baseline_anomaly,conformal,2017-07-07,2017-07-07_1355,PortScan,1.0,2.0,2
+lodo,baseline_anomaly,conformal,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,baseline_anomaly,conformal,2017-07-07,2017-07-07_1451,PortScan,1.0,5.0,5
+lodo,baseline_anomaly,conformal,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,baseline_anomaly,conformal,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,baseline_anomaly,fixed,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,baseline_anomaly,fixed,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,baseline_anomaly,fixed,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,baseline_anomaly,fixed,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,baseline_anomaly,fixed,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,baseline_anomaly,fixed,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,baseline_anomaly,fixed,2017-07-06,2017-07-06_1428,Infiltration,1.0,4.0,5
+lodo,baseline_anomaly,fixed,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,baseline_anomaly,fixed,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,baseline_anomaly,fixed,2017-07-07,2017-07-07_1355,PortScan,1.0,2.0,2
+lodo,baseline_anomaly,fixed,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,baseline_anomaly,fixed,2017-07-07,2017-07-07_1451,PortScan,1.0,5.0,5
+lodo,baseline_anomaly,fixed,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,baseline_anomaly,fixed,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,baseline_random,aci,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,baseline_random,aci,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,baseline_random,aci,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,baseline_random,aci,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,baseline_random,aci,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.2,5.0,5
+lodo,baseline_random,aci,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,baseline_random,aci,2017-07-06,2017-07-06_1428,Infiltration,0.2,1.0,5
+lodo,baseline_random,aci,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,baseline_random,aci,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,baseline_random,aci,2017-07-07,2017-07-07_1355,PortScan,0.4,1.0,2
+lodo,baseline_random,aci,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,baseline_random,aci,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,baseline_random,aci,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,baseline_random,aci,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,baseline_random,conformal,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,baseline_random,conformal,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,baseline_random,conformal,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,baseline_random,conformal,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,baseline_random,conformal,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.2,5.0,5
+lodo,baseline_random,conformal,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,baseline_random,conformal,2017-07-06,2017-07-06_1428,Infiltration,0.2,4.0,5
+lodo,baseline_random,conformal,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,baseline_random,conformal,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,baseline_random,conformal,2017-07-07,2017-07-07_1355,PortScan,0.4,1.0,2
+lodo,baseline_random,conformal,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,baseline_random,conformal,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,baseline_random,conformal,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,baseline_random,conformal,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,baseline_random,fixed,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,baseline_random,fixed,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,baseline_random,fixed,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,baseline_random,fixed,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,baseline_random,fixed,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.2,5.0,5
+lodo,baseline_random,fixed,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,baseline_random,fixed,2017-07-06,2017-07-06_1428,Infiltration,0.2,4.0,5
+lodo,baseline_random,fixed,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,baseline_random,fixed,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,baseline_random,fixed,2017-07-07,2017-07-07_1355,PortScan,0.4,1.0,2
+lodo,baseline_random,fixed,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,baseline_random,fixed,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,baseline_random,fixed,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,baseline_random,fixed,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,logreg,aci,2017-07-04,2017-07-04_0917,FTP-Patator,1.0,4.0,5
+lodo,logreg,aci,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,logreg,aci,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,logreg,aci,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,logreg,aci,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,1.0,2.0,5
+lodo,logreg,aci,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,logreg,aci,2017-07-06,2017-07-06_1428,Infiltration,0.0,,5
+lodo,logreg,aci,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,logreg,aci,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,logreg,aci,2017-07-07,2017-07-07_1355,PortScan,0.0,,2
+lodo,logreg,aci,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,logreg,aci,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,logreg,aci,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,logreg,aci,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,logreg,conformal,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,logreg,conformal,2017-07-04,2017-07-04_1409,SSH-Patator,1.0,5.0,5
+lodo,logreg,conformal,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,logreg,conformal,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,logreg,conformal,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,logreg,conformal,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,logreg,conformal,2017-07-06,2017-07-06_1428,Infiltration,0.0,,5
+lodo,logreg,conformal,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,logreg,conformal,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,logreg,conformal,2017-07-07,2017-07-07_1355,PortScan,0.0,,2
+lodo,logreg,conformal,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,logreg,conformal,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,logreg,conformal,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,logreg,conformal,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,logreg,fixed,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,logreg,fixed,2017-07-04,2017-07-04_1409,SSH-Patator,1.0,5.0,5
+lodo,logreg,fixed,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,logreg,fixed,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,logreg,fixed,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,logreg,fixed,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,logreg,fixed,2017-07-06,2017-07-06_1428,Infiltration,0.0,,5
+lodo,logreg,fixed,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,logreg,fixed,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,logreg,fixed,2017-07-07,2017-07-07_1355,PortScan,0.0,,2
+lodo,logreg,fixed,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,logreg,fixed,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,logreg,fixed,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,logreg,fixed,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,rf,aci,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,rf,aci,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,rf,aci,2017-07-05,2017-07-05_0948,DoS slowloris,0.4,3.0,5
+lodo,rf,aci,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,rf,aci,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,rf,aci,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,rf,aci,2017-07-06,2017-07-06_1428,Infiltration,0.0,,5
+lodo,rf,aci,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,rf,aci,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,rf,aci,2017-07-07,2017-07-07_1355,PortScan,0.0,,2
+lodo,rf,aci,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,rf,aci,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,rf,aci,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,rf,aci,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,rf,conformal,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,rf,conformal,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,rf,conformal,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,rf,conformal,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,rf,conformal,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,rf,conformal,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,rf,conformal,2017-07-06,2017-07-06_1428,Infiltration,0.0,,5
+lodo,rf,conformal,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,rf,conformal,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,rf,conformal,2017-07-07,2017-07-07_1355,PortScan,0.0,,2
+lodo,rf,conformal,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,rf,conformal,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,rf,conformal,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,rf,conformal,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,rf,fixed,2017-07-04,2017-07-04_0917,FTP-Patator,0.0,,5
+lodo,rf,fixed,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,rf,fixed,2017-07-05,2017-07-05_0948,DoS slowloris,0.0,,5
+lodo,rf,fixed,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,rf,fixed,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,rf,fixed,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,rf,fixed,2017-07-06,2017-07-06_1428,Infiltration,0.0,,5
+lodo,rf,fixed,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,rf,fixed,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,rf,fixed,2017-07-07,2017-07-07_1355,PortScan,0.0,,2
+lodo,rf,fixed,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,rf,fixed,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,rf,fixed,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,rf,fixed,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,xgb,aci,2017-07-04,2017-07-04_0917,FTP-Patator,1.0,4.0,5
+lodo,xgb,aci,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,xgb,aci,2017-07-05,2017-07-05_0948,DoS slowloris,0.4,1.0,5
+lodo,xgb,aci,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,xgb,aci,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,xgb,aci,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,xgb,aci,2017-07-06,2017-07-06_1428,Infiltration,0.0,,5
+lodo,xgb,aci,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,xgb,aci,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,xgb,aci,2017-07-07,2017-07-07_1355,PortScan,0.0,,2
+lodo,xgb,aci,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,xgb,aci,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,xgb,aci,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,xgb,aci,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,xgb,conformal,2017-07-04,2017-07-04_0917,FTP-Patator,1.0,4.0,5
+lodo,xgb,conformal,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,xgb,conformal,2017-07-05,2017-07-05_0948,DoS slowloris,0.6,1.0,5
+lodo,xgb,conformal,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,xgb,conformal,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,xgb,conformal,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,xgb,conformal,2017-07-06,2017-07-06_1428,Infiltration,0.0,,5
+lodo,xgb,conformal,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,xgb,conformal,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,xgb,conformal,2017-07-07,2017-07-07_1355,PortScan,0.0,,2
+lodo,xgb,conformal,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,xgb,conformal,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,xgb,conformal,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,xgb,conformal,2017-07-07,2017-07-07_1556,DDoS,0.0,,5
+lodo,xgb,fixed,2017-07-04,2017-07-04_0917,FTP-Patator,1.0,4.0,5
+lodo,xgb,fixed,2017-07-04,2017-07-04_1409,SSH-Patator,0.0,,5
+lodo,xgb,fixed,2017-07-05,2017-07-05_0948,DoS slowloris,0.6,1.0,5
+lodo,xgb,fixed,2017-07-05,2017-07-05_1512,Heartbleed,0.0,,5
+lodo,xgb,fixed,2017-07-06,2017-07-06_0915,Web Attack - Brute Force,0.0,,5
+lodo,xgb,fixed,2017-07-06,2017-07-06_1015,Web Attack - XSS,0.0,,4
+lodo,xgb,fixed,2017-07-06,2017-07-06_1428,Infiltration,0.0,,5
+lodo,xgb,fixed,2017-07-06,2017-07-06_1512,Infiltration,0.0,,2
+lodo,xgb,fixed,2017-07-07,2017-07-07_1004,Bot,0.0,,5
+lodo,xgb,fixed,2017-07-07,2017-07-07_1355,PortScan,0.0,,2
+lodo,xgb,fixed,2017-07-07,2017-07-07_1414,PortScan,0.0,,3
+lodo,xgb,fixed,2017-07-07,2017-07-07_1451,PortScan,0.0,,5
+lodo,xgb,fixed,2017-07-07,2017-07-07_1508,PortScan,0.0,,1
+lodo,xgb,fixed,2017-07-07,2017-07-07_1556,DDoS,0.0,,5

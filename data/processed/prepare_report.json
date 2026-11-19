@@ -1,0 +1,106 @@
+{
+ "files": {
+  "Monday-WorkingHours.pcap_ISCX.csv": {
+   "raw_rows": 529918,
+   "empty_rows": 0,
+   "rows": 529918,
+   "ts_min": "2017-07-03 08:55:58",
+   "ts_max": "2017-07-03 17:01:34",
+   "bad_timestamps": 0
+  },
+  "Tuesday-WorkingHours.pcap_ISCX.csv": {
+   "raw_rows": 445909,
+   "empty_rows": 0,
+   "rows": 445909,
+   "ts_min": "2017-07-04 08:53:00",
+   "ts_max": "2017-07-04 17:00:00",
+   "bad_timestamps": 0
+  },
+  "Wednesday-workingHours.pcap_ISCX.csv": {
+   "raw_rows": 692703,
+   "empty_rows": 0,
+   "rows": 692703,
+   "ts_min": "2017-07-05 08:42:00",
+   "ts_max": "2017-07-05 17:10:00",
+   "bad_timestamps": 0
+  },
+  "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv": {
+   "raw_rows": 458968,
+   "empty_rows": 288602,
+   "rows": 170366,
+   "ts_min": "2017-07-06 08:59:00",
+   "ts_max": "2017-07-06 12:59:00",
+   "bad_timestamps": 0
+  },
+  "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv": {
+   "raw_rows": 288602,
+   "empty_rows": 0,
+   "rows": 288602,
+   "ts_min": "2017-07-06 13:00:00",
+   "ts_max": "2017-07-06 17:04:00",
+   "bad_timestamps": 0
+  },
+  "Friday-WorkingHours-Morning.pcap_ISCX.csv": {
+   "raw_rows": 191033,
+   "empty_rows": 0,
+   "rows": 191033,
+   "ts_min": "2017-07-07 08:59:00",
+   "ts_max": "2017-07-07 12:59:00",
+   "bad_timestamps": 0
+  },
+  "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv": {
+   "raw_rows": 286467,
+   "empty_rows": 0,
+   "rows": 286467,
+   "ts_min": "2017-07-07 13:00:00",
+   "ts_max": "2017-07-07 15:29:00",
+   "bad_timestamps": 0
+  },
+  "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv": {
+   "raw_rows": 225745,
+   "empty_rows": 0,
+   "rows": 225745,
+   "ts_min": "2017-07-07 15:30:00",
+   "ts_max": "2017-07-07 17:02:00",
+   "bad_timestamps": 0
+  }
+ },
+ "cleaning": {
+  "rows_in": 2830743,
+  "inf_values_to_nan": 4376,
+  "dropped_bad_timestamp": 0,
+  "dropped_negative_or_missing_duration": 115,
+  "rows_out": 2830628,
+  "labels": {
+   "BENIGN": 2272982,
+   "DoS Hulk": 231073,
+   "PortScan": 158930,
+   "DDoS": 128027,
+   "DoS GoldenEye": 10293,
+   "FTP-Patator": 7938,
+   "SSH-Patator": 5897,
+   "DoS slowloris": 5796,
+   "DoS Slowhttptest": 5499,
+   "Bot": 1966,
+   "Web Attack - Brute Force": 1507,
+   "Web Attack - XSS": 652,
+   "Infiltration": 36,
+   "Web Attack - Sql Injection": 21,
+   "Heartbleed": 11
+  }
+ },
+ "total_real_rows": 2830743,
+ "minutes": 2454,
+ "minutes_per_day": {
+  "2017-07-03": 487,
+  "2017-07-04": 488,
+  "2017-07-05": 509,
+  "2017-07-06": 486,
+  "2017-07-07": 484
+ },
+ "minutes_with_attack_flows": 520,
+ "minutes_without_available_flows": 12,
+ "flows_binned_into_grid": 2827175,
+ "n_base_features": 51,
+ "seconds": 91.2
+}

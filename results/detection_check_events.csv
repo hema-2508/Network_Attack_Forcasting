@@ -1,0 +1,133 @@
+fold,model,seed,onset_id,family,detected,delay_min
+F0,logreg,0,2017-07-05_0948,DoS slowloris,True,20.0
+F0,logreg,0,2017-07-05_1512,Heartbleed,False,
+F0,rf,0,2017-07-05_0948,DoS slowloris,False,
+F0,rf,0,2017-07-05_1512,Heartbleed,False,
+F0,rf,1,2017-07-05_0948,DoS slowloris,False,
+F0,rf,1,2017-07-05_1512,Heartbleed,False,
+F0,rf,2,2017-07-05_0948,DoS slowloris,False,
+F0,rf,2,2017-07-05_1512,Heartbleed,False,
+F0,rf,3,2017-07-05_0948,DoS slowloris,False,
+F0,rf,3,2017-07-05_1512,Heartbleed,False,
+F0,rf,4,2017-07-05_0948,DoS slowloris,False,
+F0,rf,4,2017-07-05_1512,Heartbleed,False,
+F0,xgb,0,2017-07-05_0948,DoS slowloris,False,
+F0,xgb,0,2017-07-05_1512,Heartbleed,False,
+F0,xgb,1,2017-07-05_0948,DoS slowloris,True,79.0
+F0,xgb,1,2017-07-05_1512,Heartbleed,False,
+F0,xgb,2,2017-07-05_0948,DoS slowloris,False,
+F0,xgb,2,2017-07-05_1512,Heartbleed,False,
+F0,xgb,3,2017-07-05_0948,DoS slowloris,False,
+F0,xgb,3,2017-07-05_1512,Heartbleed,False,
+F0,xgb,4,2017-07-05_0948,DoS slowloris,True,79.0
+F0,xgb,4,2017-07-05_1512,Heartbleed,False,
+F1,logreg,0,2017-07-06_0915,Web Attack - Brute Force,True,15.0
+F1,logreg,0,2017-07-06_1015,Web Attack - XSS,False,
+F1,logreg,0,2017-07-06_1428,Infiltration,True,7.0
+F1,logreg,0,2017-07-06_1512,Infiltration,True,1.0
+F1,rf,0,2017-07-06_0915,Web Attack - Brute Force,True,29.0
+F1,rf,0,2017-07-06_1015,Web Attack - XSS,True,14.0
+F1,rf,0,2017-07-06_1428,Infiltration,True,7.0
+F1,rf,0,2017-07-06_1512,Infiltration,True,1.0
+F1,rf,1,2017-07-06_0915,Web Attack - Brute Force,True,30.0
+F1,rf,1,2017-07-06_1015,Web Attack - XSS,True,14.0
+F1,rf,1,2017-07-06_1428,Infiltration,True,7.0
+F1,rf,1,2017-07-06_1512,Infiltration,True,1.0
+F1,rf,2,2017-07-06_0915,Web Attack - Brute Force,True,29.0
+F1,rf,2,2017-07-06_1015,Web Attack - XSS,True,14.0
+F1,rf,2,2017-07-06_1428,Infiltration,True,7.0
+F1,rf,2,2017-07-06_1512,Infiltration,True,1.0
+F1,rf,3,2017-07-06_0915,Web Attack - Brute Force,True,16.0
+F1,rf,3,2017-07-06_1015,Web Attack - XSS,True,9.0
+F1,rf,3,2017-07-06_1428,Infiltration,True,15.0
+F1,rf,3,2017-07-06_1512,Infiltration,True,1.0
+F1,rf,4,2017-07-06_0915,Web Attack - Brute Force,True,30.0
+F1,rf,4,2017-07-06_1015,Web Attack - XSS,True,15.0
+F1,rf,4,2017-07-06_1428,Infiltration,False,
+F1,rf,4,2017-07-06_1512,Infiltration,True,1.0
+F1,xgb,0,2017-07-06_0915,Web Attack - Brute Force,True,13.0
+F1,xgb,0,2017-07-06_1015,Web Attack - XSS,True,15.0
+F1,xgb,0,2017-07-06_1428,Infiltration,True,13.0
+F1,xgb,0,2017-07-06_1512,Infiltration,True,2.0
+F1,xgb,1,2017-07-06_0915,Web Attack - Brute Force,True,14.0
+F1,xgb,1,2017-07-06_1015,Web Attack - XSS,True,17.0
+F1,xgb,1,2017-07-06_1428,Infiltration,True,13.0
+F1,xgb,1,2017-07-06_1512,Infiltration,True,1.0
+F1,xgb,2,2017-07-06_0915,Web Attack - Brute Force,True,13.0
+F1,xgb,2,2017-07-06_1015,Web Attack - XSS,True,16.0
+F1,xgb,2,2017-07-06_1428,Infiltration,True,13.0
+F1,xgb,2,2017-07-06_1512,Infiltration,True,1.0
+F1,xgb,3,2017-07-06_0915,Web Attack - Brute Force,True,14.0
+F1,xgb,3,2017-07-06_1015,Web Attack - XSS,True,17.0
+F1,xgb,3,2017-07-06_1428,Infiltration,False,
+F1,xgb,3,2017-07-06_1512,Infiltration,True,1.0
+F1,xgb,4,2017-07-06_0915,Web Attack - Brute Force,True,14.0
+F1,xgb,4,2017-07-06_1015,Web Attack - XSS,True,17.0
+F1,xgb,4,2017-07-06_1428,Infiltration,False,
+F1,xgb,4,2017-07-06_1512,Infiltration,True,3.0
+F2,logreg,0,2017-07-07_1004,Bot,False,
+F2,logreg,0,2017-07-07_1355,PortScan,False,
+F2,logreg,0,2017-07-07_1414,PortScan,False,
+F2,logreg,0,2017-07-07_1451,PortScan,True,2.0
+F2,logreg,0,2017-07-07_1508,PortScan,True,2.0
+F2,logreg,0,2017-07-07_1556,DDoS,True,17.0
+F2,rf,0,2017-07-07_1004,Bot,False,
+F2,rf,0,2017-07-07_1355,PortScan,False,
+F2,rf,0,2017-07-07_1414,PortScan,False,
+F2,rf,0,2017-07-07_1451,PortScan,False,
+F2,rf,0,2017-07-07_1508,PortScan,False,
+F2,rf,0,2017-07-07_1556,DDoS,True,4.0
+F2,rf,1,2017-07-07_1004,Bot,False,
+F2,rf,1,2017-07-07_1355,PortScan,False,
+F2,rf,1,2017-07-07_1414,PortScan,False,
+F2,rf,1,2017-07-07_1451,PortScan,True,4.0
+F2,rf,1,2017-07-07_1508,PortScan,True,3.0
+F2,rf,1,2017-07-07_1556,DDoS,True,4.0
+F2,rf,2,2017-07-07_1004,Bot,False,
+F2,rf,2,2017-07-07_1355,PortScan,False,
+F2,rf,2,2017-07-07_1414,PortScan,False,
+F2,rf,2,2017-07-07_1451,PortScan,False,
+F2,rf,2,2017-07-07_1508,PortScan,True,4.0
+F2,rf,2,2017-07-07_1556,DDoS,True,4.0
+F2,rf,3,2017-07-07_1004,Bot,False,
+F2,rf,3,2017-07-07_1355,PortScan,False,
+F2,rf,3,2017-07-07_1414,PortScan,False,
+F2,rf,3,2017-07-07_1451,PortScan,False,
+F2,rf,3,2017-07-07_1508,PortScan,False,
+F2,rf,3,2017-07-07_1556,DDoS,True,5.0
+F2,rf,4,2017-07-07_1004,Bot,False,
+F2,rf,4,2017-07-07_1355,PortScan,False,
+F2,rf,4,2017-07-07_1414,PortScan,False,
+F2,rf,4,2017-07-07_1451,PortScan,False,
+F2,rf,4,2017-07-07_1508,PortScan,True,4.0
+F2,rf,4,2017-07-07_1556,DDoS,True,4.0
+F2,xgb,0,2017-07-07_1004,Bot,True,13.0
+F2,xgb,0,2017-07-07_1355,PortScan,False,
+F2,xgb,0,2017-07-07_1414,PortScan,False,
+F2,xgb,0,2017-07-07_1451,PortScan,True,6.0
+F2,xgb,0,2017-07-07_1508,PortScan,True,3.0
+F2,xgb,0,2017-07-07_1556,DDoS,True,5.0
+F2,xgb,1,2017-07-07_1004,Bot,True,17.0
+F2,xgb,1,2017-07-07_1355,PortScan,False,
+F2,xgb,1,2017-07-07_1414,PortScan,False,
+F2,xgb,1,2017-07-07_1451,PortScan,True,6.0
+F2,xgb,1,2017-07-07_1508,PortScan,True,3.0
+F2,xgb,1,2017-07-07_1556,DDoS,True,5.0
+F2,xgb,2,2017-07-07_1004,Bot,True,21.0
+F2,xgb,2,2017-07-07_1355,PortScan,False,
+F2,xgb,2,2017-07-07_1414,PortScan,False,
+F2,xgb,2,2017-07-07_1451,PortScan,True,6.0
+F2,xgb,2,2017-07-07_1508,PortScan,True,3.0
+F2,xgb,2,2017-07-07_1556,DDoS,True,5.0
+F2,xgb,3,2017-07-07_1004,Bot,True,21.0
+F2,xgb,3,2017-07-07_1355,PortScan,False,
+F2,xgb,3,2017-07-07_1414,PortScan,False,
+F2,xgb,3,2017-07-07_1451,PortScan,True,6.0
+F2,xgb,3,2017-07-07_1508,PortScan,True,4.0
+F2,xgb,3,2017-07-07_1556,DDoS,True,5.0
+F2,xgb,4,2017-07-07_1004,Bot,True,21.0
+F2,xgb,4,2017-07-07_1355,PortScan,False,
+F2,xgb,4,2017-07-07_1414,PortScan,False,
+F2,xgb,4,2017-07-07_1451,PortScan,True,6.0
+F2,xgb,4,2017-07-07_1508,PortScan,True,3.0
+F2,xgb,4,2017-07-07_1556,DDoS,True,5.0

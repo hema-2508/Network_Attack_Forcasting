@@ -1,0 +1,141 @@
+{
+ "F0": {
+  "test_day": "2017-07-05",
+  "role": "exploratory",
+  "train": {
+   "minutes": 755,
+   "eligible": 681,
+   "positives": 5,
+   "negatives": 676,
+   "onsets_with_positive_minutes": 1,
+   "families": [
+    "FTP-Patator"
+   ]
+  },
+  "calib": {
+   "minutes": 195,
+   "eligible": 122,
+   "positives": 5,
+   "negatives": 117,
+   "onsets_with_positive_minutes": 1,
+   "families": [
+    "SSH-Patator"
+   ]
+  },
+  "test": {
+   "minutes": 509,
+   "eligible": 363,
+   "positives": 10,
+   "negatives": 353,
+   "onsets_with_positive_minutes": 2,
+   "families": [
+    "DoS slowloris",
+    "Heartbleed"
+   ]
+  },
+  "purged": {
+   "minutes": 25,
+   "eligible": 25,
+   "positives": 0,
+   "negatives": 25,
+   "onsets_with_positive_minutes": 0,
+   "families": []
+  }
+ },
+ "F1": {
+  "test_day": "2017-07-06",
+  "role": "primary",
+  "train": {
+   "minutes": 1162,
+   "eligible": 907,
+   "positives": 15,
+   "negatives": 892,
+   "onsets_with_positive_minutes": 3,
+   "families": [
+    "DoS slowloris",
+    "FTP-Patator",
+    "SSH-Patator"
+   ]
+  },
+  "calib": {
+   "minutes": 297,
+   "eligible": 259,
+   "positives": 5,
+   "negatives": 254,
+   "onsets_with_positive_minutes": 1,
+   "families": [
+    "Heartbleed"
+   ]
+  },
+  "test": {
+   "minutes": 486,
+   "eligible": 316,
+   "positives": 16,
+   "negatives": 300,
+   "onsets_with_positive_minutes": 4,
+   "families": [
+    "Infiltration",
+    "Web Attack - Brute Force",
+    "Web Attack - XSS"
+   ]
+  },
+  "purged": {
+   "minutes": 25,
+   "eligible": 25,
+   "positives": 0,
+   "negatives": 25,
+   "onsets_with_positive_minutes": 0,
+   "families": []
+  }
+ },
+ "F2": {
+  "test_day": "2017-07-07",
+  "role": "primary",
+  "train": {
+   "minutes": 1551,
+   "eligible": 1207,
+   "positives": 25,
+   "negatives": 1182,
+   "onsets_with_positive_minutes": 5,
+   "families": [
+    "DoS slowloris",
+    "FTP-Patator",
+    "Heartbleed",
+    "SSH-Patator",
+    "Web Attack - Brute Force"
+   ]
+  },
+  "calib": {
+   "minutes": 394,
+   "eligible": 296,
+   "positives": 7,
+   "negatives": 289,
+   "onsets_with_positive_minutes": 2,
+   "families": [
+    "Infiltration"
+   ]
+  },
+  "test": {
+   "minutes": 484,
+   "eligible": 183,
+   "positives": 21,
+   "negatives": 162,
+   "onsets_with_positive_minutes": 6,
+   "families": [
+    "Bot",
+    "DDoS",
+    "PortScan"
+   ]
+  },
+  "purged": {
+   "minutes": 25,
+   "eligible": 4,
+   "positives": 4,
+   "negatives": 0,
+   "onsets_with_positive_minutes": 1,
+   "families": [
+    "Web Attack - XSS"
+   ]
+  }
+ }
+}

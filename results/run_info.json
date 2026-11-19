@@ -1,0 +1,14 @@
+{
+ "config_hash": "74da90975d98",
+ "primary_folds": [
+  "F1",
+  "F2"
+ ],
+ "exploratory_folds": [
+  "F0"
+ ],
+ "H": 5,
+ "G": 10,
+ "fa_target_per_hour": 1.0,
+ "note": "Each test day evaluated once with the fixed primary configuration."
+}
